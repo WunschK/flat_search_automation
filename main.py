@@ -3,11 +3,11 @@
 # Roadmap v1.0 scraping OOP everything
 
 
-from bs4 import BeautifulSoup
-import requests as r
 import time
+
+import requests as r
+from bs4 import BeautifulSoup
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 
 where = "https://www.openrent.co.uk/properties-to-rent/soho-north-west-london?term=Soho%20(north%20west),%20London&prices_min=1000&prices_max=1500&bedrooms_min=1&bedrooms_max=2"
