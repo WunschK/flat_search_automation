@@ -45,8 +45,8 @@ for i in range(len(property_links) - 1):
     i += 1
 
 # Selenium-stuff
-chrome_driver_path = "C:\Development\chromedriver.exe"
-form = "https://docs.google.com/forms/d/e/1FAIpQLScOeeqh6y4aPkG5MH9ozpMKTEJTADO2D8BJMoeC15w7zIDn0g/viewform?usp=sf_link"
+chrome_driver_path = "path to chromedriver.exe"
+form = "specify form link here"
 
 options = Options()
 options.add_argument('--headless');
